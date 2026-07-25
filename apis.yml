@@ -1,8 +1,26 @@
 aid: cyren-call
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cyren-call.png
 name: Cyren Call
-description: Cyren Call is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Cyren Call Communications Corp. was a wireless communications company founded in 2005 by
+  Nextel co-founder Morgan O'Brien to advocate for a nationwide public-safety broadband network. Its
+  central proposal asked the FCC to reallocate 30 MHz of 700 MHz-band spectrum (freed by the 2009
+  analog-TV shutdown) to public-safety users, and it later served as advisor to the Public Safety
+  Spectrum Trust (PSST) after PSST became the nationwide licensee for public safety's 10 MHz of 700
+  MHz broadband spectrum. The FCC dismissed Cyren Call's original petition as inconsistent with
+  auction requirements, and the PSST advisory relationship ended in early 2009. The company is
+  permanently closed. It never operated a developer program, public API, or SDK surface, so no API
+  artifacts are available for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/cyren-call/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Telecommunications
+- Wireless
+- Public Safety
+- Spectrum
+- Broadband
+- Defunct
+x-status: defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
